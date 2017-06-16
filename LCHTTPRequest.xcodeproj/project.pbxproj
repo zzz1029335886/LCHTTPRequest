@@ -14,6 +14,13 @@
 		684D9C881EF38FC50014EB4D /* LCHTTPRequest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 684D9C861EF38FC50014EB4D /* LCHTTPRequest.xcdatamodeld */; };
 		684D9C8A1EF38FC50014EB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 684D9C891EF38FC50014EB4D /* Assets.xcassets */; };
 		684D9C8D1EF38FC50014EB4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684D9C8B1EF38FC50014EB4D /* LaunchScreen.storyboard */; };
+		684D9CC41EF39D890014EB4D /* LCHTTPParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 684D9CB31EF39D890014EB4D /* LCHTTPParams.m */; };
+		684D9CC51EF39D890014EB4D /* LCHTTPResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 684D9CB51EF39D890014EB4D /* LCHTTPResult.m */; };
+		684D9CC61EF39D890014EB4D /* LCHTTPResultIDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 684D9CB71EF39D890014EB4D /* LCHTTPResultIDModel.m */; };
+		684D9CC71EF39D890014EB4D /* LCEnumeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 684D9CBA1EF39D890014EB4D /* LCEnumeResult.m */; };
+		684D9CC81EF39D890014EB4D /* LCUserInfoResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 684D9CBD1EF39D890014EB4D /* LCUserInfoResult.m */; };
+		684D9CC91EF39D890014EB4D /* LCHTTPBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 684D9CC01EF39D890014EB4D /* LCHTTPBaseTool.m */; };
+		684D9CCA1EF39D890014EB4D /* LCHTTPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 684D9CC21EF39D890014EB4D /* LCHTTPTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +35,21 @@
 		684D9C891EF38FC50014EB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		684D9C8C1EF38FC50014EB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		684D9C8E1EF38FC50014EB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		684D9CB21EF39D890014EB4D /* LCHTTPParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCHTTPParams.h; sourceTree = "<group>"; };
+		684D9CB31EF39D890014EB4D /* LCHTTPParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCHTTPParams.m; sourceTree = "<group>"; };
+		684D9CB41EF39D890014EB4D /* LCHTTPResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCHTTPResult.h; sourceTree = "<group>"; };
+		684D9CB51EF39D890014EB4D /* LCHTTPResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCHTTPResult.m; sourceTree = "<group>"; };
+		684D9CB61EF39D890014EB4D /* LCHTTPResultIDModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCHTTPResultIDModel.h; sourceTree = "<group>"; };
+		684D9CB71EF39D890014EB4D /* LCHTTPResultIDModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCHTTPResultIDModel.m; sourceTree = "<group>"; };
+		684D9CB91EF39D890014EB4D /* LCEnumeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEnumeResult.h; sourceTree = "<group>"; };
+		684D9CBA1EF39D890014EB4D /* LCEnumeResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEnumeResult.m; sourceTree = "<group>"; };
+		684D9CBB1EF39D890014EB4D /* LCHTTPComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCHTTPComment.h; sourceTree = "<group>"; };
+		684D9CBC1EF39D890014EB4D /* LCUserInfoResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCUserInfoResult.h; sourceTree = "<group>"; };
+		684D9CBD1EF39D890014EB4D /* LCUserInfoResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCUserInfoResult.m; sourceTree = "<group>"; };
+		684D9CBF1EF39D890014EB4D /* LCHTTPBaseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCHTTPBaseTool.h; sourceTree = "<group>"; };
+		684D9CC01EF39D890014EB4D /* LCHTTPBaseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCHTTPBaseTool.m; sourceTree = "<group>"; };
+		684D9CC11EF39D890014EB4D /* LCHTTPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCHTTPTool.h; sourceTree = "<group>"; };
+		684D9CC21EF39D890014EB4D /* LCHTTPTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCHTTPTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +66,7 @@
 		684D9C6E1EF38FC50014EB4D = {
 			isa = PBXGroup;
 			children = (
+				684D9C941EF39D440014EB4D /* LCHTTPRequestObject */,
 				684D9C791EF38FC50014EB4D /* LCHTTPRequest */,
 				684D9C781EF38FC50014EB4D /* Products */,
 			);
@@ -80,6 +103,68 @@
 				684D9C7B1EF38FC50014EB4D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		684D9C941EF39D440014EB4D /* LCHTTPRequestObject */ = {
+			isa = PBXGroup;
+			children = (
+				684D9CAD1EF39D890014EB4D /* HTTP */,
+			);
+			path = LCHTTPRequestObject;
+			sourceTree = "<group>";
+		};
+		684D9CAD1EF39D890014EB4D /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				684D9CAE1EF39D890014EB4D /* Model */,
+				684D9CBE1EF39D890014EB4D /* Tool */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		684D9CAE1EF39D890014EB4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				684D9CAF1EF39D890014EB4D /* Base */,
+				684D9CB81EF39D890014EB4D /* Common */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		684D9CAF1EF39D890014EB4D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				684D9CB21EF39D890014EB4D /* LCHTTPParams.h */,
+				684D9CB31EF39D890014EB4D /* LCHTTPParams.m */,
+				684D9CB41EF39D890014EB4D /* LCHTTPResult.h */,
+				684D9CB51EF39D890014EB4D /* LCHTTPResult.m */,
+				684D9CB61EF39D890014EB4D /* LCHTTPResultIDModel.h */,
+				684D9CB71EF39D890014EB4D /* LCHTTPResultIDModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		684D9CB81EF39D890014EB4D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				684D9CB91EF39D890014EB4D /* LCEnumeResult.h */,
+				684D9CBA1EF39D890014EB4D /* LCEnumeResult.m */,
+				684D9CBB1EF39D890014EB4D /* LCHTTPComment.h */,
+				684D9CBC1EF39D890014EB4D /* LCUserInfoResult.h */,
+				684D9CBD1EF39D890014EB4D /* LCUserInfoResult.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		684D9CBE1EF39D890014EB4D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				684D9CBF1EF39D890014EB4D /* LCHTTPBaseTool.h */,
+				684D9CC01EF39D890014EB4D /* LCHTTPBaseTool.m */,
+				684D9CC11EF39D890014EB4D /* LCHTTPTool.h */,
+				684D9CC21EF39D890014EB4D /* LCHTTPTool.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +239,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				684D9CCA1EF39D890014EB4D /* LCHTTPTool.m in Sources */,
+				684D9CC41EF39D890014EB4D /* LCHTTPParams.m in Sources */,
+				684D9CC91EF39D890014EB4D /* LCHTTPBaseTool.m in Sources */,
+				684D9CC51EF39D890014EB4D /* LCHTTPResult.m in Sources */,
 				684D9C821EF38FC50014EB4D /* ViewController.m in Sources */,
 				684D9C7F1EF38FC50014EB4D /* AppDelegate.m in Sources */,
+				684D9CC81EF39D890014EB4D /* LCUserInfoResult.m in Sources */,
+				684D9CC71EF39D890014EB4D /* LCEnumeResult.m in Sources */,
+				684D9CC61EF39D890014EB4D /* LCHTTPResultIDModel.m in Sources */,
 				684D9C881EF38FC50014EB4D /* LCHTTPRequest.xcdatamodeld in Sources */,
 				684D9C7C1EF38FC50014EB4D /* main.m in Sources */,
 			);
@@ -279,6 +371,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9L8XTYH38F;
 				INFOPLIST_FILE = LCHTTPRequest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litchon.LCHTTPRequest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,6 +384,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9L8XTYH38F;
 				INFOPLIST_FILE = LCHTTPRequest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litchon.LCHTTPRequest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -316,6 +410,7 @@
 				684D9C931EF38FC50014EB4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
